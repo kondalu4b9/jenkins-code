@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gront
+Build-Jdk: 1.8.0_171
+Extension-Name: hp-application-automation-tools-plugin
+Specification-Title: The plugin integrates Jenkins with the following 
+ Micro Focus products - Service Virtualization,
+ 		LoadRunner, Performance Center, Unified Functional Testing, QuickTe
+ st Professional, Service Test, Mobile Center,
+ 		Application Lifecycle Management and Application Lifecycle Manageme
+ nt Octane.
+Specification-Vendor: Micro Focus
+Implementation-Vendor: Micro Focus
+Implementation-Title: hp-application-automation-tools-plugin
+Implementation-Version: 5.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: hp-application-automation-tools-plugin
+Long-Name: Micro Focus Application Automation Tools
+Url: https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+A
+ utomation+Tools
+Plugin-Version: 5.8
+Hudson-Version: 2.107.3
+Jenkins-Version: 2.107.3
+Plugin-Dependencies: maven-plugin:2.17,workflow-aggregator:2.5,workflo
+ w-cps:2.53,workflow-job:2.21,workflow-multibranch:2.20,workflow-suppo
+ rt:2.18,credentials:2.1.11,extended-choice-parameter:0.64;resolution:
+ =optional,git:3.1.0;resolution:=optional,jenkins-multijob-plugin:1.15
+ ;resolution:=optional,jquery:1.11.2-0;resolution:=optional,junit:1.19
+ ,matrix-project:1.7.1;resolution:=optional,nodelabelparameter:1.5.0;r
+ esolution:=optional,parameterized-trigger:2.25;resolution:=optional,r
+ andom-string-parameter:1.0;resolution:=optional,sonar:2.8.1;resolutio
+ n:=optional,ssh-credentials:1.13,subversion:2.7.1;resolution:=optiona
+ l,token-macro:1.12.1;resolution:=optional
+Plugin-Developers: Daniel Gront:gront:daniel.gront@microfocus.com,Radi
+ slav Berkovich:radislavB:radislav.berkovich@microfocus.com,Roy Lu:Rlu
+ :li.lu@microfocus.com,Pavel Chuchma:pavelchuchma:pavel.chuchma@microf
+ ocus.com,Vlad, Rolando-Mihai:rolandomihaivlad:rolando-mihai.vlad@micr
+ ofocus.com,Tamas, Ionut Florin:tamasflorin:ionut-florin.tamas@hpe.com
+ ,Daniel Danan:bamh:daniel.danan@microfocus.com,Zhang, Xiao-Jing:janez
+ hang:xiao-jing.zhang2@microfocus.com,Yuri Guller:gullerya:gullerya@gm
+ ail.com,Fima (Yafim) Kazak:YafimK:
+

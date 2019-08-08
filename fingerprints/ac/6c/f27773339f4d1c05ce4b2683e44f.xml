@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-08 05:25:57.756 UTC</timestamp>
+  <md5sum>ac6cf27773339f4d1c05ce4b2683e44f</md5sum>
+  <fileName>Credential id=b682e002-bdfa-4f9a-9dd2-5ac74d2ddbd2 name=gkchilakala@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>hellopipe</string>
+      <ranges>3-19</ranges>
+    </entry>
+    <entry>
+      <string>PetClinic</string>
+      <ranges>1-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

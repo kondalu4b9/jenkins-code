@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.sonatype.nexus.ci.config.GlobalNexusConfiguration plugin="nexus-jenkins-plugin@3.5.20190425-152158.c63841b">
+  <nxrmConfigs>
+    <org.sonatype.nexus.ci.config.Nxrm3Configuration>
+      <id>nexus-prd</id>
+      <internalId>aa621bce-188a-46a4-88b8-69b6bf42cdf7</internalId>
+      <displayName>nexus-prd</displayName>
+      <serverUrl>http://ec2-3-92-189-109.compute-1.amazonaws.com:8081</serverUrl>
+      <credentialsId>nexus</credentialsId>
+    </org.sonatype.nexus.ci.config.Nxrm3Configuration>
+  </nxrmConfigs>
+  <iqConfigs/>
+  <hideNvsMessage>false</hideNvsMessage>
+  <instanceId>11a47d3685294c2a8fc89b40837b1d71</instanceId>
+</org.sonatype.nexus.ci.config.GlobalNexusConfiguration>

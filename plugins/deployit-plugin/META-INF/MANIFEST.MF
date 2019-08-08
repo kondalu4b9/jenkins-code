@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+PluginFirstClassLoader: true
+Plugin-Dependencies: credentials:1.16.1,workflow-step-api:1.10
+Long-Name: XebiaLabs XL Deploy Plugin
+Plugin-Developers: XebiaLabs:XebiaLabsCI:xl-developers (at) xebialabs 
+ (dot) com
+Group-Id: com.xebialabs.deployit.ci
+Extension-Name: deployit-plugin
+Plugin-Version: 7.5.6
+Jenkins-Version: 1.642.3
+Url: https://wiki.jenkins-ci.org/display/JENKINS/XL+Deploy+Plugin
+Short-Name: deployit-plugin
+

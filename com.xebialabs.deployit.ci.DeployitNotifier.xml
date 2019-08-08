@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.xebialabs.deployit.ci.DeployitNotifier_-DeployitDescriptor plugin="deployit-plugin@7.5.6">
+  <deployitServerUrl></deployitServerUrl>
+  <deployitClientProxyUrl></deployitClientProxyUrl>
+  <connectionPoolSize>10</connectionPoolSize>
+  <credentials>
+    <com.xebialabs.deployit.ci.Credential>
+      <name></name>
+      <username></username>
+      <password>{AQAAABAAAAAQ8BBcUo7+klYjOgSch5cpySDK6s2YsapedFob83HbvI4=}</password>
+      <credentialsId>nexus</credentialsId>
+      <useGlobalCredential>false</useGlobalCredential>
+    </com.xebialabs.deployit.ci.Credential>
+  </credentials>
+</com.xebialabs.deployit.ci.DeployitNotifier_-DeployitDescriptor>

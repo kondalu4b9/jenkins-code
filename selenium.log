@@ -1,0 +1,23 @@
+Starting Selenium Grid
+[.jenkins] $ /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/bin/java -cp /opt/apache-tomcat-8.5.42/webapps/jenkins/WEB-INF/lib/remoting-3.29.jar hudson.remoting.Launcher -cp /root/.jenkins/plugins/selenium/WEB-INF/lib/selenium-server-standalone-3.141.59.jar:/root/.jenkins/plugins/selenium/WEB-INF/lib/htmlunit-driver-standalone-2.33.3.jar -connectTo localhost:40382
+Starting Selenium Grid
+channel started
+Aug 08, 2019 2:40:32 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid hub starting with log level INFO
+Aug 08, 2019 2:40:32 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub preparing to start on port 4444
+2019-08-08 14:40:33.675:INFO::pool-1-thread-1 for channel id=0: Logging initialized @13203ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2019-08-08 14:40:33.882:INFO:osjs.Server:pool-1-thread-1 for channel id=0: jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_212-b04
+2019-08-08 14:40:33.999:INFO:osjs.session:pool-1-thread-1 for channel id=0: DefaultSessionIdManager workerName=node0
+2019-08-08 14:40:33.999:INFO:osjs.session:pool-1-thread-1 for channel id=0: No SessionScavenger set, using defaults
+2019-08-08 14:40:34.001:INFO:osjs.session:pool-1-thread-1 for channel id=0: node0 Scavenging every 660000ms
+2019-08-08 14:40:34.031:INFO:osjsh.ContextHandler:pool-1-thread-1 for channel id=0: Started o.s.j.s.ServletContextHandler@58247837{/,null,AVAILABLE}
+2019-08-08 14:40:34.060:INFO:osjs.AbstractConnector:pool-1-thread-1 for channel id=0: Stopped ServerConnector@44c365f9{HTTP/1.1,[http/1.1]}{ec2-54-158-52-145.compute-1.amazonaws.com:4444}
+2019-08-08 14:40:34.060:INFO:osjs.session:pool-1-thread-1 for channel id=0: node0 Stopped scavenging
+2019-08-08 14:40:34.062:INFO:osjsh.ContextHandler:pool-1-thread-1 for channel id=0: Stopped o.s.j.s.ServletContextHandler@58247837{/,null,UNAVAILABLE}
+Aug 08, 2019 2:40:34 PM org.openqa.grid.internal.DefaultGridRegistry assignRequestToProxy
+INFO: Shutting down registry.
+Aug 08, 2019 2:40:34 PM org.openqa.grid.web.Hub start
+SEVERE: Port 4444 is busy, please choose a free port for the hub and specify it using -port option
+Aug 08, 2019 2:40:34 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub started on port 4444 with args: -maxSession 5 -timeout 300 -browserTimeout 0 -host ec2-54-158-52-145.compute-1.amazonaws.com

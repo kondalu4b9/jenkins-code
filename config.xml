@@ -1,0 +1,138 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
+    <string>jenkins.security.QueueItemAuthenticatorMonitor</string>
+    <string>org.sonatype.nexus.ci.nvs.NvsMessageAdministrativeMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.176.1</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>3</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:goutham</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:goutham</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:goutham</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:goutham</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:goutham</permission>
+    <permission>hudson.model.Computer.Build:goutham</permission>
+    <permission>hudson.model.Computer.Configure:goutham</permission>
+    <permission>hudson.model.Computer.Connect:goutham</permission>
+    <permission>hudson.model.Computer.Create:goutham</permission>
+    <permission>hudson.model.Computer.Delete:goutham</permission>
+    <permission>hudson.model.Computer.Disconnect:goutham</permission>
+    <permission>hudson.model.Hudson.Administer:goutham</permission>
+    <permission>hudson.model.Hudson.Read:goutham</permission>
+    <permission>hudson.model.Item.Build:goutham</permission>
+    <permission>hudson.model.Item.Cancel:goutham</permission>
+    <permission>hudson.model.Item.Configure:goutham</permission>
+    <permission>hudson.model.Item.Create:goutham</permission>
+    <permission>hudson.model.Item.Delete:goutham</permission>
+    <permission>hudson.model.Item.Discover:goutham</permission>
+    <permission>hudson.model.Item.Move:goutham</permission>
+    <permission>hudson.model.Item.Read:goutham</permission>
+    <permission>hudson.model.Item.Workspace:goutham</permission>
+    <permission>hudson.model.Run.Delete:goutham</permission>
+    <permission>hudson.model.Run.Replay:goutham</permission>
+    <permission>hudson.model.Run.Update:goutham</permission>
+    <permission>hudson.model.View.Configure:goutham</permission>
+    <permission>hudson.model.View.Create:goutham</permission>
+    <permission>hudson.model.View.Delete:goutham</permission>
+    <permission>hudson.model.View.Read:goutham</permission>
+    <permission>hudson.scm.SCM.Tag:goutham</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:goutham</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:goutham</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks>
+    <jdk>
+      <name>JAVA8</name>
+      <home>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name>JAVA7</name>
+      <home>/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.221-2.6.18.0.el7_6.x86_64</home>
+      <properties/>
+    </jdk>
+  </jdks>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>PetClinic</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>FS-PetClinic</string>
+        <string>PetClinic</string>
+        <string>PL-PetClinic</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>MyJOBS</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Sample</string>
+        <string>Sample_Flow</string>
+        <string>Sample_pipeline</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>

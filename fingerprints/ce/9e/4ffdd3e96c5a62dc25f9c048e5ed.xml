@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-10 04:50:49.297 UTC</timestamp>
+  <md5sum>ce9e4ffdd3e96c5a62dc25f9c048e5ed</md5sum>
+  <fileName>Credential id=centos name=centos</fileName>
+  <usages>
+    <entry>
+      <string>hellopipe</string>
+      <ranges>7-9,13-17</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
